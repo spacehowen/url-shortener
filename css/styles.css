@@ -1,0 +1,102 @@
+/* FONT IOSEVKA */
+@font-face {
+    font-family: 'iosevka';
+    src: url('../fonts/Iosevka.ttf') format('truetype');
+}
+body{
+    font-family: iosevka;
+    background-color:#1e1d1d ;
+}
+.navbar{
+    background-color: #262626;
+}
+.small, small{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.small, small:hover{
+    color: aliceblue;
+}
+.small, small:focus{
+    color: aliceblue;
+}
+.nav-link{
+    color: #F4BD3C;
+    /*background-color: #d49b00;*/
+}
+.nav-link:hover{
+    color: #F4BD3C;
+}
+.nav-link:focus{
+    color: #F4BD3C;
+}
+.card{
+    background-color: #262626;
+    margin-top: 20px;
+}
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+p{
+    color: aliceblue;
+}
+.btn{
+    background-color: #F4BD3C;
+}
+.btn:hover{
+    background-color: #F4BD3C;
+}
+.btn:focus{
+    background-color: #F4BD3C;
+}
+.card-footer{
+    border-top: 2px solid #F4BD3C;
+}
+.text-muted {
+    --mdb-text-opacity: 1;
+    color: aliceblue !important;
+}
+.timmer-download{
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form-outline .form-control{
+    background-color: #f1f1f1;
+    color: #000;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: #F4BD3C;
+    box-shadow: 0 1px 1px #F4BD3C;
+    outline: 0 none;
+}
+#outPopUp {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    z-index: 15;
+    top: 35%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+}
+.table{
+    color: aliceblue;
+}
