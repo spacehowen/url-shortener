@@ -167,7 +167,7 @@ if(isset($_POST['name_web']) && isset($_POST['name_new_web'])){
 
         <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
 
-            <p style="margin-bottom: 20px; color: aliceblue; font-weight: bold; font-size: 15.5px">CAMBIAR BANNER ADSENSE:</p>
+            <p style="margin-bottom: 20px; color: aliceblue; font-weight: bold; font-size: 15.5px">CAMBIAR BANNER ADS:</p>
 
             <form class="add_question_form" method="post">
 
@@ -181,7 +181,7 @@ if(isset($_POST['name_web']) && isset($_POST['name_new_web'])){
 
         <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
 
-            <p style="margin-bottom: 20px; color: aliceblue; font-weight: bold; font-size: 15.5px">CAMBIAR INTERSTICIAL ADSENSE:</p>
+            <p style="margin-bottom: 20px; color: aliceblue; font-weight: bold; font-size: 15.5px">CAMBIAR INTERSTICIAL ADS:</p>
 
             <form class="add_question_form" method="post">
 

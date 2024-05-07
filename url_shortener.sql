@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 04-07-2022 a las 04:56:18
--- Versión del servidor: 10.4.24-MariaDB
--- Versión de PHP: 7.4.29
+-- Tiempo de generación: 07-05-2024 a las 01:43:19
+-- Versión del servidor: 10.4.32-MariaDB
+-- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -34,7 +34,7 @@ CREATE TABLE `settings` (
   `admin_password` varchar(1000) NOT NULL,
   `ads_banner` text NOT NULL,
   `ads_intersticial` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `settings`
@@ -56,17 +56,7 @@ CREATE TABLE `urls` (
   `created` varchar(32) NOT NULL,
   `userip` varchar(32) NOT NULL,
   `views` int(12) NOT NULL DEFAULT 0
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `urls`
---
-
-INSERT INTO `urls` (`id`, `longurl`, `alias`, `created`, `userip`, `views`) VALUES
-(48, 'http://192.168.1.40/url-shortener/url_shortener', '3342GLR', '1656890139', '192.168.1.36', 2),
-(49, 'https://192.168.1.40/url-shortener/3342GLR', 'JVYATP1', '1656890180', '192.168.1.36', 5),
-(51, 'https://htmlcolorcodes.com/es/nombres-de-los-colores/', '58NPBSW', '1656903240', '127.0.0.1', 0),
-(52, 'http://192.168.1.40/url-shortener/url_shortener', 'QEULSPV', '1656903317', '192.168.1.36', 0);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Índices para tablas volcadas
@@ -98,7 +88,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT de la tabla `urls`
 --
 ALTER TABLE `urls`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
